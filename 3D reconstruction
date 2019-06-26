@@ -1,5 +1,5 @@
 clear %clear workspace and all parameters
-fid1 = fopen('6.txt'); %open file
+fid1 = fopen('2dseq'); %open file
 C = fread(fid1,'int16')'; %read file
 fclose(fid1); %close file
 %B1 = reshape(A1,[32 32 32]);
